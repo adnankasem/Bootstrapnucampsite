@@ -14,13 +14,20 @@
     <title>For Fun</title>
 </head>    
 <body>
+    <style>
+        .bigRow {
+            background-color: aqua;
+            height: 400px;
+        }
+    
+    </style>
     <h1 id="gradientheader" class="bg-dark mt-3 pt-3 pb-3 text-center bg-gradient-">Hello</h1>
     <table class="table table-bordered table-dark">
         <div class="container">
             <div class="row">
-                <div class="col-sm-5">
-                    <thead>
-                        <th>Best Soccer Players</th>
+                <div class="col-sm-12">
+                    <thead class=" text-center">
+                        <th colspan="2">Best Soccer Players</th>
                     </thead>
                 </div>
             </div>
@@ -45,5 +52,11 @@
             
         </tbody>
     </table>
+    <div class="container">
+        <div class="row bigRow  justify-content-center align-items-center gx-5">
+            <div class="col-sm-5"><div class="p-3 border bg-light">Col One</div></div>
+            <div class="col-sm-5"><div class="p-3 border bg-light">Col Two</div></div>
+        </div>
+    </div>
 </body>
 </html>
